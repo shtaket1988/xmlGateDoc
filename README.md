@@ -45,15 +45,15 @@ https://имя_хоста/zmessage.php
 **PHP-данные:**
 ```php
 $param = array(
-    'login' => 'логин',
+	'login' => 'логин',
 	'password' => 'Пароль',
 	'login_user' => 'Логин пользователя',
 	'sign' => 'Проверочный код',
-    'messages' => array(
-        array(
-            'type' => '1',
-            'sell' => '0.55',
-            'buy' => '0.35',
+	'messages' => array(
+		array(
+			'type' => '1',
+			'sell' => '0.55',
+			'buy' => '0.35',
 			'originator' => 'mail1@mail.ru',
 			'email' => 'mail2@mail.ru',
 			'type_email' => 'text/plain',
@@ -63,11 +63,11 @@ $param = array(
 			'time' => '2018-10-03 12:00:00',
 			'id_message' => '1001',
 			'name_delivery' => 'Рассылка 1'
-        ),
+		),
 		array(
-            'type' => '1',
-            'sell' => '0.55',
-            'buy' => '0.35',
+			'type' => '1',
+			'sell' => '0.55',
+			'buy' => '0.35',
 			'originator' => 'mail1@mail.ru',
 			'email' => 'mail3@mail.ru',
 			'type_email' => 'text/plain',
@@ -77,8 +77,8 @@ $param = array(
 			'time' => '2018-10-03 12:00:00',
 			'id_message' => '1002',
 			'name_delivery' => 'Рассылка 2'
-        )
-    )
+		)
+	)
 );
 ```
 
